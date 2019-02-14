@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Nico's Grill Greek Restaurant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="style-index.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+      integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+
+    <script src="main.js"></script>
+  </head>
+  <body class="bg-light">
+
+    
+    <!-- Jumbotron-->
+
+    <div class="jumbotron jumbotron-fluid text-center">
+      <div class="container">
+        <h1 class="display-3 mt-4">Welkom bij Nico's Grill</h1>
+        <h2 class="display-5">Griekse keuken</h2>
+        <a href="menu.html" class="btn btn-primary mt-4" role="button">Menukaart</a>
+        
+      </div>
+    </div>
+
+    <!-- NAV BAR-->
+
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+      <button
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#collapse_target"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="collapse_target">
+        <a class="navbar-brand"><img src="images/greekflag.png" class="rounded"/></a>
+
+        <ul class="navbar-nav w-100 justify-content-around">
+          <li class="nav-item">
+            <a class="nav-link text-white " href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="menu.html">Menukaart</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="fotos.html">Foto's</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="locaties.html">Locaties</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+
+    <!--Paragraph-->
+
+<div class="container">
+  <hr/>
+    <blockquote class="blockquote">
+        <p class="text-center">Nico's grill biedt een zuivere eerlijke keuken, met uitsluitend griekse kwaliteitsprodukten en zoveel als mogelijk, verse ingrediënten en kruiden uit Griekenland. Zodat het aroma en de smaak van Onze keukenbrigade onze gerechten zoveel mogelijk tot hun recht komen.</p>
+      </blockquote>
+      <hr/>
+</div>
+    
+
+    <!-- Cards-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="card">
+            <img src="images/duo-menu.jpeg" class="card-img-top img-fluid" />
+            <div class="card-block">
+              <h4 class="card-title text-center mt-2"><strong>Student-menu</strong></h4>
+              <p class="actie1 text-center">Pita naar keuze<br>
+              Drank naar keuze<br>
+            </p>
+
+            <p class="actie1-prijs text-center">
+              <strong>Voor maar €6</strong>
+            </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="card">
+            <img src="images/valentine.jpg" class="card-img-top img-fluid" />
+            <div class="card-block">
+              <h4 class="card-title text-center mt-2"><strong>Valentijnsmenu</strong></h4>
+              <p class="actie2 text-center">
+              Elk een schotel naar keuze<br>
+              + drank 
+              </p>
+
+              <p class="actie2-prijs text-center">
+                <strong>Voor maar €25</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4">
+          <div class="card" style="height: 384px">
+            <img src="images/familymenu.jpeg" class="card-img-top img-fluid" />
+            <div class="card-block">
+              <h4 class="card-title text-center mt-2"><strong>Familie-deal</strong></h4>
+              <p class="actie3 text-center">
+                2 schotels betalen <br>
+                1 pita gratis
+                
+              </p>
+
+              <p class="actie3-info text-center">
+                <strong>NIET TE MISSEN!</strong>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="page-footer mt-4">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 col-sm-4 offset-sm-4">
+              <div class="d-flex justify-content-center mt-3">
+                <p>&copy; Copyright 2019: Manuel Colomo</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+      integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+      integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

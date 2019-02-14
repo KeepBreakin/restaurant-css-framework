@@ -1,0 +1,42 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+.jumbotron h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.jumbotron h2 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.jumbotron p {
+  font-family: "Montserrat", sans-serif;
+}
+
+.jumbotron {
+  background-color: rgba(238, 238, 238, 0.6) !important;
+  background-image: url("images/souvlaki.jpg");
+  background-size: cover;
+  background-blend-mode: color;
+}
+
+.card-img-top.img-fluid {
+  height: 218px;
+}
+
+.page-footer {
+  background-color: #383b43;
+  color: white;
+}
+
+.nav-link {
+  font-family: "Montserrat", sans-serif;
+}
+
+blockquote p {
+  font-family: "Montserrat", sans-serif;
+}
+
